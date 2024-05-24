@@ -1,0 +1,91 @@
+{"shoppingCarts" : [ 
+  {"productID":11, "quantity": 1},
+  {"productID":123, "quantity": 1},
+  {"productID": 453, "quantity": 1},
+  {"productID": 563, "quantity": 2},
+  {"productID": 56, "quantity": 3}
+  ], "customerID":1231
+},
+
+{"shoppingCarts" : [ 
+  {"productID": 563, "productName": "blouse", "price": 33, "currency": "USD"},
+  {"productID": 56, "productName": "top", "price": 15, "currency": "USD"},
+  {"productID":131, "productName": "Shirt", "price": 20, "currency": "USD" },
+  {"productID":123, "productName": "boots", "price": 40, "currency": "USD"},
+  {"productID": 453, "productName": "shoes", "price": 35, "currency": "USD"},
+  {"productID": 563, "productName": "cap", "price": 33, "currency": "USD"}
+  ], "customerID":1232
+},
+
+{"shoppingCarts" : [ 
+  {"productID": 563, "productName": "cap", "price": 33, "currency": "USD"},
+  {"productID": 56, "productName": "jacket", "price": 15, "currency": "USD"}
+  {"productID": 56, "productName": "top", "price": 15, "currency": "USD"},
+  {"productID":131, "productName": "Shirt", "price": 20, "currency": "USD" },
+  {"productID":123, "productName": "dress", "price": 40, "currency": "USD"},
+  {"productID": 453, "productName": "blazer", "price": 35, "currency": "USD"},
+  {"productID": 563, "productName": "bodysuit", "price": 33, "currency": "USD"},
+  {"productID": 56, "productName": "shorts", "price": 15, "currency": "USD"}
+  ], "customerID":1242
+},
+
+{"shoppingCarts" : [ 
+  {"productID": 563, "productName": "cap", "price": 33, "currency": "USD"},
+  {"productID": 56, "productName": "jacket", "price": 15, "currency": "USD"}
+  {"productID": 56, "productName": "top", "price": 15, "currency": "USD"},
+  {"productID": 56, "productName": "shorts", "price": 15, "currency": "USD"}
+  ], "customerID":12425
+},
+
+{"Products" : [ 
+  {"productID":11, "productName": "Shirt", "price": 20, "currency": "USD" },
+  {"productID":123, "productName": "Skirt", "price": 40, "currency": "USD"},
+  {"productID": 453, "productName": "Pants", "price": 35, "currency": "USD"},
+  {"productID": 563, "productName": "blouse", "price": 33, "currency": "USD"},
+  {"productID": 56, "productName": "top", "price": 15, "currency": "USD"},
+  {"productID":131, "productName": "Shirt", "price": 20, "currency": "USD" },
+  {"productID":1235, "productName": "boots", "price": 40, "currency": "USD"},
+  {"productID": 4563, "productName": "shoes", "price": 35, "currency": "USD"},
+  {"productID": 5643, "productName": "cap", "price": 33, "currency": "USD"},
+  {"productID": 560, "productName": "jacket", "price": 15, "currency": "USD"}
+  {"productID": 51, "productName": "top", "price": 18, "currency": "USD"},
+  {"productID":132, "productName": "Shirt", "price": 20, "currency": "USD" },
+  {"productID":122, "productName": "dress", "price": 40, "currency": "USD"},
+  {"productID": 452, "productName": "blazer", "price": 35, "currency": "USD"},
+  {"productID": 562, "productName": "bodysuit", "price": 33, "currency": "USD"},
+  {"productID": 526, "productName": "shorts", "price": 15, "currency": "USD"}
+ ]
+},
+
+{"Customers" : [ 
+ {"customerName": "Ivan", "customerID":1231,
+    "adress": {
+       "city": "Moscow",
+       "street": "Polevaya 15",
+       "postalCode":"10012"
+  }},
+ {"customerName": "Olga", "customerID":1232,
+    "adress": {
+       "city": "Moscow",
+       "street": "Solnechnaya 1",
+       "postalCode":"10013"
+  }},
+ {"customerName": "Anna", "customerID":1242,
+    "adress": {
+       "city": "Moscow",
+       "street": "Solnechnaya 20",
+       "postalCode":"10013"
+  }},
+ {"customerName": "Alina", "customerID":12425,
+    "adress": {
+       "city": "Moscow",
+       "street": "Kupaly 2",
+       "postalCode":"10213"
+  }},
+
+{"Orders" : [ 
+  {"orderID" : 1223, "customerID":12425, "productsID": [123, 453,131], "totalСost" : 95, "status": "done"},
+  {"orderID" : 4351, "customerID":1242, "productsID": [56, 560, 51], "totalСost" : 48, "status": "done"},
+  {"orderID" : 4345, "customerID":1232, "productsID": [526, 562, 452,132], "totalСost" : 103, "status": "done"},
+  {"orderID" : 2356, "customerID":1231, "productsID": [122, 562, 452,132, 51], "totalСost" : 146, "status": "done"}
+]}
