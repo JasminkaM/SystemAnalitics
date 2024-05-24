@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dessert_menu>
-  <сategory>Дессерты
+  <сategory title="Дессерты">
     <position id="1" parent_id="0">
       <title>Яблочный штрудель</title>
       <price>2.50</price>
