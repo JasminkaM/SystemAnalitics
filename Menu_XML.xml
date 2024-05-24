@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dessert_menu>
-  <сategory title="Дессерты">
+  <category title="Дессерты">
     <position id="1" parent_id="0">
       <title>Яблочный штрудель</title>
       <price>2.50</price>
@@ -86,5 +86,5 @@
     <desc>Миндальный, шоколадный на выбор</desc>
     <status>active</status>
   </position>
-  </сategory>
+  </category>
 </dessert_menu>
