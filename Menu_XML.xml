@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dessert_menu>
+  <сategory> Дессерты
+    <position id="1" parent_id="0">
+      <title>Яблочный штрудель</title>
+      <price>2.50</price>
+      <desc>C грецкими орехами и шариком сливочного мороженого</desc>
+      <status>active</status>
+    </position>
+    <position id="2" parent_id="0">
+      <title>Мороженое</title>
+      <price>2.50</price>
+      <desc>С начинкой на выбор</desc>
+      <status>active</status>
+        <subcategory id="3" parent_id="2">
+          <title>Клубничное</title>
+          <status>active</status>
+        </subcategory>
+        <subcategory id="4" parent_id="2">
+          <title>Малиновое</title>
+          <status>active</status>
+       </subcategory>
+       <subcategory id="5" parent_id="2">
+         <title>Шоколадное</title>
+         <status>active</status>
+       </subcategory>
+    </position>
+    <position id="6" parent_id="0">
+      <title>Восточный фруктовый салат</title>
+      <price>3.00</price>
+      <desc>Кусочки фруктов в ароматном соусе из специй и апельсина</desc>
+      <status>active</status>
+   </position>
+   <position id="7" parent_id="0">
+     <title>Клубничный суп</title>
+     <price>4.00</price>
+     <desc>С шариком ванильного мороженого</desc>
+     <status>inactive</status>
+   </position>
+   <position id="8" parent_id="0">
+     <title>Cухофрукты</title>
+     <price>6.00</price>
+     <desc>Изюм, орехи, курага, чернослив</desc>
+     <status>active</status>
+   </position>
+   <position id="9" parent_id="0">
+     <title>Фруктовая тарелка</title>
+     <price>8.00</price>
+     <desc>Виноград, ананас, дыня, клубника</desc>
+     <status>active</status>
+  </position>
+  <position id="10" parent_id="0">
+    <title>Наполеон</title>
+    <price>3.50</price>
+    <desc>Классический дессерт из хрустящего слоеного теста</desc>
+    <status>active</status>
+  </position>
+  <position id="11" parent_id="0">
+    <title>Шоколадный вулкан</title>
+    <price>7.50</price>
+    <desc>Свежеиспеченный кекс с жидкой шоколадной начинкой</desc>
+    <status>active</status>
+  </position>
+  <position id="12" parent_id="0">
+    <title>Медовая пахлава</title>
+    <price>4.00</price>
+    <desc>С орехами</desc>
+    <status>active</status>
+  </position>
+  <position id="13" parent_id="0">
+    <title>Лимонный крем с манго</title>
+    <price>5.00</price>
+    <desc>Великолепный крем из лимона с пюре из спелого манго</desc>
+    <status>active</status>
+  </position>
+  <position id="14" parent_id="0">
+    <title>Шоколадный бисквит</title>
+    <price>5.00</price>
+    <desc>Нежный бисквит с кусочками шоколада</desc>
+    <status>active</status>
+  </position>
+  <position id="15" parent_id="0">
+    <title>Круассан</title>
+    <price>2.00</price>
+    <desc>Миндальный, шоколадный на выбор</desc>
+    <status>active</status>
+  </position>
+  </сategory>
+</dessert_menu>
